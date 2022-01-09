@@ -1,0 +1,94 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+#l {
+  color: green;
+}
+#u {
+  color: #0459eb;
+}
+#d {
+  color: yellow;
+}
+#o {
+  color: red;
+}
+#dot {
+  color: yellow;
+}
+#i {
+  color: green;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #1a1a1d;
+}
+
+.joinInnerContainer {
+  width: 350px;
+}
+
+.joinInput {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  font-size: 3em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid red;
+}
+
+.button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.158);
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px transparent solid;
+  display: inline-block;
+  width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+}
+
+.button:hover {
+  border-top: 2px blue solid;
+  border-right: 2px blue solid;
+  border-left: 2px red solid;
+  border-bottom: 2px red solid;
+}

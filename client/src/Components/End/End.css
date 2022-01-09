@@ -1,0 +1,52 @@
+#End {
+  position: relative;
+  height: 13vh;
+  width: 13vh;
+  border-top: rgb(87, 33, 33) solid 6.5vh;
+  border-right: rgb(27, 71, 33) solid 6.5vh;
+  border-bottom: rgb(88, 83, 35) solid 6.5vh;
+  border-left: rgb(27, 29, 53) solid 6.5vh;
+}
+.End > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.red,
+.blue,
+.green,
+.yellow {
+  border-radius: 50%;
+}
+.End .up {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  bottom: 10px;
+  right: -20px;
+}
+.End .down {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  top: 10px;
+  right: -20px;
+}
+.End .right {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  left: 10px;
+  bottom: -20px;
+}
+.End .left {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  right: 10px;
+  bottom: -20px;
+}
