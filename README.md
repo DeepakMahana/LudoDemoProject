@@ -19,10 +19,10 @@ npm run dev
 
 ## How to Play the Game
 
-# Go to http://localhost:3000
-# Enter your name (You being the Host), skip Room ID and press Create Room.
-# A short URL will be provided to share to the other members who wanted to join the game.
-# Open that URL in a seperate tab and Enter your name. Room ID being already placed. Click Join Room.
-# Enjoy the game.
+#### Go to http://localhost:3000
+#### Enter your name (You being the Host), skip Room ID and press Create Room.
+#### A short URL will be provided to share to the other members who wanted to join the game.
+#### Open that URL in a seperate tab and Enter your name. Room ID being already placed. Click Join Room.
+#### Enjoy the game.
 
 
